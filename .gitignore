@@ -1,0 +1,12 @@
+# Credentials and local runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+site-study/
+*.zip

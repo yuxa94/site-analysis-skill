@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-06",
+  "revision": 2,
+  "secret_scan": "passed; no configured key values in report package",
+  "two_dimensional": "parcel click, satellite, zoom, rail/access layer toggles verified in browser",
+  "three_dimensional": "actual VWorld terrain and buildings rendered; parcel overlay, reference mass, top and focus camera controls verified in embedded viewer",
+  "responsive": "mobile 390×844 verified; document overflow absent",
+  "data_layers": {
+    "parcel": 407,
+    "zone": 11,
+    "district": 3,
+    "road": 14,
+    "rail": 4,
+    "building": 266,
+    "education": 2,
+    "site": 1,
+    "currentBuilding": 1
+  },
+  "limits": [
+    "3m setback is a reconstructed reference line, not surveyed/approved geometry",
+    "Vehicle entrance and prohibited entry segments not established",
+    "VWorld 3D model shows old low-rise site; 79.9m overlay is simplified reference mass",
+    "2023-368 and 2026-213 cumulative notices remain unverified"
+  ]
+}

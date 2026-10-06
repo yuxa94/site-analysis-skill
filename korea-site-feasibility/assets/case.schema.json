@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Korea site feasibility case",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "district_plan",
+    "sections",
+    "map",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "address"
+      ],
+      "properties": {
+        "pnu": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]{19}$"
+        },
+        "center": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ]
+        }
+      }
+    },
+    "district_plan": {
+      "type": "object",
+      "required": [
+        "status",
+        "missing",
+        "requested_from_user"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "verified",
+            "partial",
+            "not_found",
+            "unknown",
+            "not_applicable_verified"
+          ]
+        },
+        "requested_from_user": {
+          "type": "boolean"
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "facts": {
+      "type": "array"
+    },
+    "sections": {
+      "type": "array"
+    },
+    "map": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array"
+    }
+  }
+}

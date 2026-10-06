@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-06",
+  "sections": 12,
+  "local_links": "passed",
+  "unique_ids": "passed",
+  "credentials_scan": "no matches",
+  "registry_ratios": "passed",
+  "scenario_arithmetic": "passed",
+  "browser_checks": [
+    "cover and map rendered",
+    "calculator default",
+    "parcel area 1878.5 input",
+    "invalid zero input",
+    "reset",
+    "no browser error logs"
+  ],
+  "limitations": "See report section 12"
+}

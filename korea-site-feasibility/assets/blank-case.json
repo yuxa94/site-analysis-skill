@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "부지분석·기획설계 보고서",
+    "address": "",
+    "pnu": null,
+    "checked_at": null,
+    "uses": [],
+    "center": null
+  },
+  "facts": [],
+  "district_plan": {
+    "status": "unknown",
+    "summary": "공식 검색 및 사용자 자료 확인 전",
+    "sources": [],
+    "missing": [],
+    "search_log": [],
+    "requested_from_user": false
+  },
+  "sections": [
+    {
+      "id": "decision",
+      "title": "핵심 판단과 사업 전제",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "site",
+      "title": "대상지·필지·면적",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "context",
+      "title": "입지와 주변 환경",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "existing",
+      "title": "기존 건축물과 인허가",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "planning",
+      "title": "지구단위계획·개별 고시",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "law",
+      "title": "법규 적용 검토",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "capacity",
+      "title": "면적·높이 규모검토",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "scenarios",
+      "title": "용도별 비교안",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "parking",
+      "title": "주차·차량·보행 계획",
+      "paragraphs": [],
+      "tables": []
+    },
+    {
+      "id": "design",
+      "title": "기획설계 제안·후속 자료",
+      "paragraphs": [],
+      "tables": []
+    }
+  ],
+  "map": {
+    "layers": [],
+    "site_geojson": null,
+    "reference_height_m": null,
+    "reference_building_geojson": null,
+    "notes": [
+      "필지·규제 도형을 수집한 뒤 레이어를 추가합니다."
+    ],
+    "annotations": []
+  },
+  "sources": []
+}

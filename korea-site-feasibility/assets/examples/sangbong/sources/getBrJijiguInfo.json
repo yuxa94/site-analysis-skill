@@ -1,0 +1,101 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "rnum": 1,
+            "platPlc": "서울특별시 중랑구 상봉동 116-49번지",
+            "sigunguCd": "11260",
+            "bjdongCd": "10200",
+            "platGbCd": "0",
+            "bun": "0116",
+            "ji": "0049",
+            "mgmBldrgstPk": 1000000000000007412825,
+            "newPlatPlc": "서울특별시 중랑구 망우로 265 (상봉동)",
+            "splotNm": " ",
+            "block": " ",
+            "lot": " ",
+            "jijiguGbCd": "1",
+            "jijiguGbCdNm": "용도지역코드",
+            "jijiguCd": "UQA001",
+            "jijiguCdNm": "도시지역",
+            "reprYn": "1",
+            "etcJijigu": " ",
+            "crtnDay": "20260605"
+          },
+          {
+            "rnum": 2,
+            "platPlc": "서울특별시 중랑구 상봉동 116-49번지",
+            "sigunguCd": "11260",
+            "bjdongCd": "10200",
+            "platGbCd": "0",
+            "bun": "0116",
+            "ji": "0049",
+            "mgmBldrgstPk": 1000000000000007412825,
+            "newPlatPlc": "서울특별시 중랑구 망우로 265 (상봉동)",
+            "splotNm": " ",
+            "block": " ",
+            "lot": " ",
+            "jijiguGbCd": "2",
+            "jijiguGbCdNm": "용도지구코드",
+            "jijiguCd": "UIK100",
+            "jijiguCdNm": "철도보호지구",
+            "reprYn": "1",
+            "etcJijigu": " ",
+            "crtnDay": "20260605"
+          },
+          {
+            "rnum": 3,
+            "platPlc": "서울특별시 중랑구 상봉동 116-49번지",
+            "sigunguCd": "11260",
+            "bjdongCd": "10200",
+            "platGbCd": "0",
+            "bun": "0116",
+            "ji": "0049",
+            "mgmBldrgstPk": 1000000000000007412825,
+            "newPlatPlc": "서울특별시 중랑구 망우로 265 (상봉동)",
+            "splotNm": " ",
+            "block": " ",
+            "lot": " ",
+            "jijiguGbCd": "3",
+            "jijiguGbCdNm": "용도구역코드",
+            "jijiguCd": "UQQ300",
+            "jijiguCdNm": "지구단위계획구역",
+            "reprYn": "1",
+            "etcJijigu": " ",
+            "crtnDay": "20260605"
+          },
+          {
+            "rnum": 4,
+            "platPlc": "서울특별시 중랑구 상봉동 116-49번지",
+            "sigunguCd": "11260",
+            "bjdongCd": "10200",
+            "platGbCd": "0",
+            "bun": "0116",
+            "ji": "0049",
+            "mgmBldrgstPk": 1000000000000007412825,
+            "newPlatPlc": "서울특별시 중랑구 망우로 265 (상봉동)",
+            "splotNm": " ",
+            "block": " ",
+            "lot": " ",
+            "jijiguGbCd": "1",
+            "jijiguGbCdNm": "용도지역코드",
+            "jijiguCd": "UQA220",
+            "jijiguCdNm": "일반상업지역",
+            "reprYn": "0",
+            "etcJijigu": " ",
+            "crtnDay": "20260605"
+          }
+        ]
+      },
+      "numOfRows": "100",
+      "pageNo": "1",
+      "totalCount": "4"
+    }
+  }
+}

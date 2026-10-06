@@ -1,0 +1,246 @@
+{
+  "subject": "서울 중랑구 상봉동 116-49",
+  "checked_at": "2026-10-06",
+  "pnu": "1126010200101160049",
+  "sources": [
+    {
+      "id": "E3",
+      "title": "토지이음 현재 필지 열람 기록",
+      "url": "sources/eum_landuse_verified.txt",
+      "description": "주소·PNU 일치 확인 / 대 2,027㎡ / GTX-B 저촉·건축선·해발132m"
+    },
+    {
+      "id": "E3-M",
+      "title": "토지이음 확인도면",
+      "url": "assets/eum-confirmed-map.gif",
+      "description": "2026-10-06 조회, 원본 해상도 419×327"
+    },
+    {
+      "id": "V7",
+      "title": "VWorld 2D 지도 레이어 원본",
+      "url": "sources/map_layers.json",
+      "description": "주변 필지·건물·용도지역·지구단위·도로·철도·교육환경"
+    },
+    {
+      "id": "V8",
+      "title": "2D·3D 대지 아틀라스",
+      "url": "상봉동_116-49_지도분석.html",
+      "description": "반응형 지도 / 차량출입 위치 미확정 / 3m 후퇴 참고선"
+    },
+    {
+      "id": "D1",
+      "title": "건축HUB 건축물대장 총괄표제부",
+      "url": "sources/getBrRecapTitleInfo.json",
+      "description": "BldRgstHubService/getBrRecapTitleInfo · 1건 · 대장 생성 2026-06-12"
+    },
+    {
+      "id": "D2",
+      "title": "건축물대장 동별표제부",
+      "url": "sources/getBrTitleInfo.json",
+      "description": "getBrTitleInfo · 17건 · 주거/근생/공공/부속시설"
+    },
+    {
+      "id": "D3",
+      "title": "건축물대장 층별개요",
+      "url": "sources/getBrFlrOulnInfo.json",
+      "description": "getBrFlrOulnInfo · 51건 · 층별 용도·면적"
+    },
+    {
+      "id": "D4",
+      "title": "건축인허가 기본개요 및 주차장",
+      "url": "sources/getApBasisOulnInfo.json",
+      "description": "ArchPmsHubService/getApBasisOulnInfo · 11건 이력 중 현 건물 선택 / 주차 상세 별도"
+    },
+    {
+      "id": "D4-P",
+      "title": "건축인허가 주차장 상세",
+      "url": "sources/getApPklotInfo.json",
+      "description": "getApPklotInfo · 현 승인 건의 자주식 주차 123대 대조"
+    },
+    {
+      "id": "D5",
+      "title": "대장 부속지번",
+      "url": "sources/getBrAtchJibunInfo.json",
+      "description": "0건 응답 · 합필 증명으로 사용하지 않음"
+    },
+    {
+      "id": "D6",
+      "title": "주택인허가 기본개요",
+      "url": "sources/getHpBasisOulnInfo.json",
+      "description": "HsPmsHubService/getHpBasisOulnInfo · 정상 응답, 대상 0건"
+    },
+    {
+      "id": "V1",
+      "title": "VWorld 지오코더",
+      "url": "sources/geocode.json",
+      "description": "서울 중랑구 상봉동 116-49 · 대표 좌표"
+    },
+    {
+      "id": "V2",
+      "title": "VWorld 토지특성",
+      "url": "sources/land.json",
+      "description": "연도별 응답 중 2026년 최신행 채택"
+    },
+    {
+      "id": "V3",
+      "title": "VWorld 연속지적도",
+      "url": "sources/parcel.json",
+      "description": "PNU 일치 도형 · 속성면적과 도형면적 불일치 주의"
+    },
+    {
+      "id": "V4",
+      "title": "VWorld 토지이용계획",
+      "url": "sources/landuse.json",
+      "description": "포함·저촉·접함 관계 · 갱신 2026-09-06"
+    },
+    {
+      "id": "V5",
+      "title": "VWorld 배경지도·지적 경계 참고도",
+      "url": "assets/site-map.svg",
+      "description": "WMTS Base 배경 + API 응답 경계 · API 키 없이 정적 저장"
+    },
+    {
+      "id": "V6",
+      "title": "VWorld 상봉역 검색",
+      "url": "sources/station.json",
+      "description": "역 대표 POI · 출입구·보행 경로 정보 아님"
+    },
+    {
+      "id": "E1",
+      "title": "서울특별시고시 제2022-331호",
+      "url": "sources/notice_2022_331.pdf",
+      "description": "2022-08-04 · 서울시보 3800호 p.94–105 · 토지이음 고시 원문"
+    },
+    {
+      "id": "E2",
+      "title": "서울특별시고시 제2026-271호",
+      "url": "sources/notice_2026_271.pdf",
+      "description": "2026-05-21 · 서울시보 4150호 p.110–112 · 도서관 면적 변경"
+    },
+    {
+      "id": "E1-W",
+      "title": "토지이음 고시 상세",
+      "url": "https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=561322",
+      "description": "2022-331호 공적 열람 페이지"
+    },
+    {
+      "id": "E2-W",
+      "title": "서울시 2026년 5월 3주 고시·공고",
+      "url": "https://news.seoul.go.kr/citybuild/archives/539713",
+      "description": "첨부 서울시보 자료에서 2026-271호 확보"
+    },
+    {
+      "id": "L1",
+      "title": "주택법 제2조",
+      "url": "https://www.law.go.kr/법령/주택법/제2조",
+      "description": "도시형생활주택·국민주택규모 정의"
+    },
+    {
+      "id": "L2",
+      "title": "주택법 시행령 제10조",
+      "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=289499&urlMode=lsScJoRltInfoR",
+      "description": "2026-09-08 시행본 · 도시형 유형·혼합 예외"
+    },
+    {
+      "id": "L3",
+      "title": "주택건설기준 등에 관한 규정 제27조",
+      "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=289501&urlMode=lsScJoRltInfoR",
+      "description": "2026-09-08 시행본 · 주차 기준"
+    },
+    {
+      "id": "L4",
+      "title": "서울특별시 주차장 설치 및 관리 조례",
+      "url": "https://www.law.go.kr/LSW/ordinInfoP.do?ordinSeq=2171833",
+      "description": "2026-10-01 시행본 · 별표 2는 2025-09-29 개정 표시"
+    },
+    {
+      "id": "L4-A",
+      "title": "서울 주차 조례 별표 2 원문",
+      "url": "sources/seoul_parking_annex2.hwp",
+      "description": "국가법령정보센터 flSeq=169852833 · 한글 원문"
+    },
+    {
+      "id": "L4-T",
+      "title": "서울 주차 조례 별표 2 추출 텍스트",
+      "url": "sources/seoul_parking_annex2.txt",
+      "description": "검색·산식 확인용. 표 구조는 원문 우선"
+    },
+    {
+      "id": "L5",
+      "title": "건축법 제61조",
+      "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028916761",
+      "description": "2026-02-27 시행본 · 일조·채광 높이 적용 범위"
+    },
+    {
+      "id": "L6",
+      "title": "건축법 제44조·제58조",
+      "url": "https://www.law.go.kr/법령/건축법",
+      "description": "접도·대지 안의 공지 / 조례·시행령 연계 확인 필요"
+    },
+    {
+      "id": "L7",
+      "title": "주택법 시행령 제27조",
+      "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=289499&urlMode=lsScJoRltInfoR",
+      "description": "2026-09-08 시행본 · 사업계획승인 대상과 주거복합 예외"
+    },
+    {
+      "id": "L8",
+      "title": "철도안전법 제45조",
+      "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025500035",
+      "description": "철도보호지구 행위신고"
+    }
+  ],
+  "scenarios": [
+    {
+      "code": "A",
+      "name": "일반 공동주택 중심",
+      "units": 180,
+      "mix": "59㎡ × 90 + 74㎡ × 90",
+      "exclusive": 11970,
+      "eff": 0.74,
+      "park": 179,
+      "detail": "중소형 가족주거 비중 확대. 74㎡ 세대는 2022년 청년주택의 전용 20–60㎡ 내외 계획과 차이가 있어 조건 변경 검토가 특히 중요합니다.",
+      "res": 16175.675675675677,
+      "nonres": 2335.104,
+      "total": 18510.779675675676,
+      "margin": 948.4203243243246,
+      "far": 913.2106401418686
+    },
+    {
+      "code": "B",
+      "name": "도시형생활주택 중심",
+      "units": 299,
+      "mix": "29㎡ × 120 + 44㎡ × 120 + 59㎡ × 59",
+      "exclusive": 12241,
+      "eff": 0.72,
+      "park": 185,
+      "detail": "소형·중형을 혼합한 아파트형 도시형생활주택 가정. 299세대 한계 가까이에서 주차와 공용공간이 계획을 제한합니다. 기존 299세대와 동일한 인허가 유형이라는 뜻은 아닙니다.",
+      "res": 17001.38888888889,
+      "nonres": 2335.104,
+      "total": 19336.49288888889,
+      "margin": 122.70711111111086,
+      "far": 953.9463684700982
+    },
+    {
+      "code": "C",
+      "name": "일반 + 도시형 혼합",
+      "units": 280,
+      "mix": "도시형 29㎡ × 120 + 44㎡ × 80<br>일반 74㎡ × 80",
+      "exclusive": 12920,
+      "eff": 0.76,
+      "park": 205,
+      "detail": "도시형 200세대와 일반 80세대에 저층 근린생활시설을 복합. 요청한 세 용도의 결합을 직접 시험한 안입니다. 높은 전용효율을 가정하므로 평면과 주차 확보가 가장 어려운 안입니다.",
+      "res": 17000.0,
+      "nonres": 2335.104,
+      "total": 19335.104,
+      "margin": 124.09600000000137,
+      "far": 953.8778490379871
+    }
+  ],
+  "unresolved": [
+    "2023-368 및 2026-213 고시 누적 변경",
+    "법적 증명용 토지이용계획확인서 발급본 대조",
+    "5필지 현재 합필·권리관계",
+    "최종 승인도면 및 공공기여·주차 산정표"
+  ]
+}

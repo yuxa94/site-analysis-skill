@@ -1,0 +1,4 @@
+interface:
+  display_name: "대지 현황 분석 skill"
+  short_description: "공공자료·지구단위계획을 조사해 2D·3D 부지분석 HTML 작성"
+  default_prompt: "$korea-site-feasibility로 주소와 계획 용도를 기준으로 지구단위계획을 조사하고 지도와 규모검토를 포함한 HTML 보고서를 작성해줘."
